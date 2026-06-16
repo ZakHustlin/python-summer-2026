@@ -1,2 +1,49 @@
 # python-summer-2026
 Project to learn coding fundamentals. 
+# Python Summer 2026
+
+
+## About
+I'm Zak — 16, UK. This repo documents my summer of self-directed learning 
+in Python, data science, and ML. I am learnign technical skills. 
+
+## Roadmap
+**Phase 1 — Python Foundations (CS50P)**
+- [x] Environment setup
+- [ ] Week 0: Functions & Variables
+- [ ] Week 1: Conditionals
+- [ ] Week 2: Loops
+- [ ] Week 3: Exceptions
+- [ ] Week 4: Libraries
+- [ ] Week 5: Unit Tests
+- [ ] Week 6: File I/O
+- [ ] Week 7: Regex
+- [ ] Week 8: OOP
+- [ ] Week 9: Et Cetera
+
+**Phase 2 — Data Science**
+- [ ] NumPy
+- [ ] Pandas
+- [ ] Matplotlib & Seaborn
+- [ ] Statistics foundations
+
+**Phase 3 — Machine Learning**
+- [ ] Kaggle Intro to ML
+- [ ] Kaggle Intermediate ML
+- [ ] scikit-learn
+
+## Portfolio Projects
+| Project | Description | Status |
+|---------|-------------|--------|
+| NHS Clinic Waiting Times | Pandas + Matplotlib analysis of real NHS data | 🔜 Planned |
+| Lifestyle Predictor | scikit-learn classification model | 🔜 Planned |
+| Film Recommendation Engine | Content + collaborative filtering | 🔜 Planned |
+
+## Weekly Log
+### Week 1 — 16 June 2026
+First week. Set up Codespaces and GitHub. Built first programs:
+BMI calculator, heart rate calculator, temperature converter.
+Started CS50P Week 0.
+
+## Skills so far
+`Python` `Git` `GitHub` `VS Code`
