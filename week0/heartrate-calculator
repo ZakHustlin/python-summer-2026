@@ -1,0 +1,6 @@
+age = int(input("How old are you? "))
+max_hr = (220-age)
+lower = int(max_hr * 0.6)
+upper = int(max_hr * 0.8)
+print(f"Your maximum heart rate is {max_hr} bpm")
+print(f"Target zone: {lower} - {upper} bpm")
