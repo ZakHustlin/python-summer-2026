@@ -10,8 +10,8 @@ in Python, data science, and ML. I am learnign technical skills.
 ## Roadmap
 **Phase 1 — Python Foundations (CS50P)**
 - [x] Environment setup
-- [ ] Week 0: Functions & Variables
-- [ ] Week 1: Conditionals
+- [x] Week 0: Functions & Variables
+- [x] Week 1: Conditionals
 - [ ] Week 2: Loops
 - [ ] Week 3: Exceptions
 - [ ] Week 4: Libraries
@@ -43,7 +43,13 @@ in Python, data science, and ML. I am learnign technical skills.
 ### Week 1 — 16 June 2026
 First week. Set up Codespaces and GitHub. Built first programs:
 BMI calculator, heart rate calculator, temperature converter.
-Started CS50P Week 0.
+Completed CS50P week0 and week1
+Problems solved:
+- Grade classifier (return vs print distinction)
+- Medical triage function (condition ordering logic)
+- Calculator with match statements and division by zero handling
+- Password validator (any() with generator expressions)
+
 
 ## Skills so far
 `Python` `Git` `GitHub` `VS Code`
