@@ -43,6 +43,23 @@ in Python, data science, and ML. I am learnign technical skills.
 ### Week 1 — 16 June 2026
 First week. Set up Codespaces and GitHub. Built first programs:
 BMI calculator, heart rate calculator, temperature converter.
+Finished CS50P week0, week1
+Created:
+- Grade classifier (return vs print distinction)
+- Medical triage function (condition ordering logic)
+- Calculator with match statements and division by zero handling
+- Password validator (any() with generator expressions)
+Key concepts:
+- Functions should return values, not print them — 
+  returning makes functions reusable and testable
+- elif chains only run if everything above failed, 
+  so upper bounds in conditions are redundant
+- Condition ordering in if/elif matters — specific 
+  cases must come before broad catch-alls
+- match statements are cleaner than long elif chains 
+  when switching on a single variable
+- any() with a generator expression lets you search 
+  through a string without needing a loop
 Completed CS50P week0 and week1
 Problems solved:
 - Grade classifier (return vs print distinction)
