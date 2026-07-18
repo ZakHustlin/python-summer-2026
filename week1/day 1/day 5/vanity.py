@@ -31,5 +31,6 @@ def is_valid(s):
     if letter_count < 2 or letter_count > 5:
         return False 
     return True
-main()
+if __name__ == "__main__":
+    main()
 

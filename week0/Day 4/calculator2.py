@@ -20,4 +20,6 @@ def main():
     operator = input("Enter operator (+, -, *, /): ")
     result = calculate(a, b, operator)
     print(f"Result: {result}")
-main()
+
+if __name__ == "__main__":
+    main()
