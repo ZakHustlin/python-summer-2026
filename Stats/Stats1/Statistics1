@@ -1,0 +1,81 @@
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import seaborn as sns
+from scipy import stats
+df = pd.read_csv("gp_practices.csv")
+df = df[df["list_size"] > 500]
+
+
+##print(np.min(df["list_size"]))
+plt.hist(df["list_size"])
+plt.savefig("list_size.png")
+
+## Block 2
+
+##print(df["pct_same_day"].max() - df["pct_same_day"].min())
+##print(df["pct_same_day"].var())
+
+##block3
+
+values = [
+    0.1,
+    0.25,
+    0.5,
+    0.75,
+    0.9
+    ]
+##print(df["pct_same_day"].quantile(values))
+
+
+##Block4
+
+print(df["pct_same_day"].skew())
+print(df["abx_per_1000"].skew())
+
+##b5
+
+
+plt.figure()
+x = np.random.default_rng(0).normal(47, 10, 10000)
+plt.hist(x, bins=35, alpha=0.5)
+plt.savefig("fakedata.png")
+
+
+plt.figure()
+sns.histplot(df["pct_same_day"], kde=True)
+plt.savefig("same_day.png")
+print(df["pct_same_day"].describe())
+
+print(df[["imd_score", "patients_per_gp", "pct_65plus", "pct_same_day", "dna_rate", "abx_per_1000"]].corr())
+
+
+plt.figure()
+sns.scatterplot(data=df, x="imd_score", y="abx_per_1000")
+plt.savefig("correlation.png")
+
+
+
+##final block
+
+
+
+fig, axes = plt.subplots(2, 2, figsize=(12, 10))
+
+sns.heatmap(df.select_dtypes("number").corr(), ax=axes[0, 0], annot=True)
+
+sns.boxplot(data=df, x="pct_same_day", y="region", ax=axes[0, 1])
+
+
+axes[1, 0].set_title("imd score vs same-day")
+axes[1, 0].scatter(df["pct_same_day"], df["imd_score"])
+axes[1, 0].set_ylabel("imd-score")
+axes[1, 0].set_xlabel("same-day")
+
+sns.histplot(df["pct_same_day"], kde=True, ax=axes[1, 1])
+axes[1, 1].set_title("Same-Day Access Distribution")
+axes[1, 1].set_xlabel("% Same-Day")
+axes[1, 1].set_ylabel("Frequency")
+
+plt.tight_layout()
+plt.savefig("2x2.png")
