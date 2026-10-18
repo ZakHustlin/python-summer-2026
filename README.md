@@ -22,22 +22,17 @@ in Python, data science, and ML. I am learnign technical skills.
 - [x] Week 9: Et Cetera
 
 **Phase 2 — Data Science**
-- [ ] NumPy
-- [ ] Pandas
-- [ ] Matplotlib & Seaborn
-- [ ] Statistics foundations
+- [ x] NumPy
+- [x ] Pandas
+- [x ] Matplotlib & Seaborn
+- [x ] Statistics foundations
 
 **Phase 3 — Machine Learning**
-- [ ] Kaggle Intro to ML
-- [ ] Kaggle Intermediate ML
-- [ ] scikit-learn
+- [x ] Kaggle Intro to ML
+- [ x] Kaggle Intermediate ML
+- [ x] scikit-learn
 
-## Portfolio Projects
-| Project | Description | Status |
-|---------|-------------|--------|
-| NHS Clinic Waiting Times | Pandas + Matplotlib analysis of real NHS data | 🔜 Planned |
-| Lifestyle Predictor | scikit-learn classification model | 🔜 Planned |
-| Film Recommendation Engine | Content + collaborative filtering | 🔜 Planned |
+
 
 ## Weekly Log
 ### Week 1 + 2, 16 June 2026 
